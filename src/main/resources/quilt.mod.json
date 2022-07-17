@@ -15,11 +15,11 @@
 				"issues": "https://github.com/KacyBiscuit/BedrockHorses/issues",
 				"sources": "https://github.com/KacyBiscuit/BedrockHorses"
 			},
-			"icon": "assets/better_curses/icon.png"
+			"icon": "assets/bedrock_horses/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.KacyBiscuit.better_curses.BedrockHorses"
+			"init": "io.github.KacyBiscuit.bedrock_horses.BedrockHorses"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "bedorck_horses.mixins.json"
+	"mixin": "bedrock_horses.mixins.json"
 }
