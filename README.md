@@ -8,4 +8,4 @@ Available on [**Modrinth**](https://modrinth.com/mod/bedrock_horses)\
 Also Available on [**CurseForge**](https://www.curseforge.com/minecraft/mc-mods/bedrock-horses)
 
 # Download
-[[1.19] InsoMania! 1.0.0](https://github.com/KacyBiscuit/BedrockHorses/releases/download/1.0.0/bedrock_horses-1.0.0+1.19.jar)
+[[1.19] Bedrock Horses 1.0.0](https://github.com/KacyBiscuit/BedrockHorses/releases/download/1.0.0/bedrock_horses-1.0.0+1.19.jar)
