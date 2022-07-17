@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.KacyBiscuit",
+		"id": "bedrock_horses",
+		"version": "${version}",
+		"metadata": {
+			"name": "Bedrock Horses!",
+			"description": "Implements the bug in minecraft Bedrock Edition where externally added speed effects are applied to a horses offsprings base stats.",
+			"contributors": {
+				"KacyBiscuit aka StarlytKaitlyn aka KaitlynEthylia": "Owner"
+			},
+			"contact": {
+				"homepage": "https://github.com/KacyBiscuit",
+				"issues": "https://github.com/KacyBiscuit/BedrockHorses/issues",
+				"sources": "https://github.com/KacyBiscuit/BedrockHorses"
+			},
+			"icon": "assets/better_curses/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "io.github.KacyBiscuit.better_curses.BedrockHorses"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=2.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19"
+			}
+		]
+	},
+	"mixin": "bedorck_horses.mixins.json"
+}
